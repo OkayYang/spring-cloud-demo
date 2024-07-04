@@ -1,0 +1,24 @@
+---
+spring:
+  profiles:
+    active: dev   # 指定当前应用的配置文件
+---
+spring:
+  profiles: dev
+  application:
+    name: cloud-service1
+  cloud:
+    config:
+      uri: http://localhost:8888
+      label: master
+      profile: dev
+---
+spring:
+  profiles: prod
+  application:
+    name: cloud-service1
+  cloud:
+    config:
+      uri: http://localhost:8888
+      label: master
+      profile: prod
