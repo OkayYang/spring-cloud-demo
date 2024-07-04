@@ -5,7 +5,7 @@
 
 :smile:如果您觉得该教程还算有所帮助，还请点个star支持一下！
 
-:book:个人博客网站: [www.blog.ywenrou.cn](https://blog.ywenrou.cn3)
+:book:个人博客网站: [blog.ywenrou.cn](https://blog.ywenrou.cn)
 
 项目的文档指南位于根目录的 `docs` 文件夹中，包含以下内容：
 
